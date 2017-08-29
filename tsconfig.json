@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "declaration": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "module": "commonjs",
+        "target": "ES5",
+        "outDir": "test",
+        "rootDir": "tsTests",
+        "suppressImplicitAnyIndexErrors": true,
+        "sourceMap": true
+    },
+    "exclude": [
+        "deprecated"
+    ]
+}

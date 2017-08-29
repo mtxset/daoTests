@@ -1,0 +1,22 @@
+{
+  "name": "daotests",
+  "version": "1.0.0",
+  "description": "Testing resource consumption in simple dao env",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mtxset/daoTests.git"
+  },
+  "author": "mtxset",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtxset/daoTests/issues"
+  },
+  "homepage": "https://github.com/mtxset/daoTests#readme",
+  "devDependencies": {
+    "chai": "^4.1.1"
+  }
+}
