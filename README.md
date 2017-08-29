@@ -23,6 +23,8 @@ Tally votes
 Price of function which counts votes depending against voter count
 
 ![Alt text](/img/chart.png?raw=true)
+Showing relation between votes and fee for vote check
+
 Calculating votes could be done outside contract/wallet but in order to to stay to prove validity let everyone do that.
 
 When checking proposals, votes, comments cheapest way is to use database which replicates blockchain, to make sure they their sync is valid merkle tree should be build for votes.
