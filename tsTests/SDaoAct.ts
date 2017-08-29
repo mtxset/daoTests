@@ -145,7 +145,7 @@ contract("SDaoAct", (accounts)=>
                 voterSum += m;
                 let voteGas = await dao.TallyVotes.estimateGas(0);
                 let deleteGas = await dao.DeleteProposal.estimateGas(0); 
-                await dao.DeleteProposal(0);
+                await dao.DeletePropsal(0);
 
                 let priceInDollah = 0.000000021 * (voteGas + deleteGas) * 360; 
                 console.log(`${m} ${priceInDollah}`);
