@@ -22,7 +22,7 @@ Tally votes
 
 Price of function which counts votes depending against voter count
 
-![Alt text](/img/chart.png?raw=true)
+![Alt text](/img/graph01.png?raw=true)
 Showing relation between votes and fee for vote check
 
 Calculating votes could be done outside contract/wallet but in order to to stay to prove validity let everyone do that.
