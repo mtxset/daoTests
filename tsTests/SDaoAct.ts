@@ -94,7 +94,7 @@ contract("SDaoAct", (accounts)=>
         })
     })
 
-    describe.only("Estimate gas consumption for local vote", async()=>
+    describe("Estimate gas consumption for local vote", async()=>
     {
         
         it("voters = X", async()=>
@@ -153,7 +153,7 @@ contract("SDaoAct", (accounts)=>
             console.log(`Amount of voters: ${voterSum}`);
         })
 
-        it.only("proposals > 0, voters, delete proposal after each tally vote", async()=>
+        it("proposals > 0, voters, delete proposal after each tally vote", async()=>
         {
             let X = 10;
             let proposals = 40;
